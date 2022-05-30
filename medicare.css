@@ -30,3 +30,14 @@ nav ul li a{text-decoration: none; display: block; padding: 12px 20px;}
 .caption button{padding: 16px 30px; border: none; border-radius: 30px; margin-right: 13px; color: white;}
 .btn-1{ background-color: rgb(182, 12, 40);}
 .btn-2{ background-color: rgb(14, 13, 13);}
+
+
+/* ................footer................... */
+footer{background-color: red;}
+footer .container{height: 300px;}
+footer .list{width: 20%;}
+footer .list ul{list-style: none; text-decoration: none;}
+footer .list ul li{ margin:20px 0px; font-size: 16px;}
+footer .extra{width: 50%;}
+footer .extra span{color: white; margin:20px 0px;}
+footer .last{width: 30%;}
