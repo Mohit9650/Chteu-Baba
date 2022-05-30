@@ -1,0 +1,32 @@
+*{margin: 0px; box-sizing: border-box; font-family: Arial;}
+.d-flex{
+    display:flex;
+}
+.align-item-center{align-items: center;}
+.space-between{justify-content: space-between;}
+.container{max-width: 1400px; margin: 0px auto;}
+.row{display: flex; flex-wrap: wrap;}
+
+/* ........navbar............ */
+
+.navbar{ padding: 12px 4px; background-color: aliceblue;}
+nav{width: 75%;}
+.navbar ul{list-style: none; display: flex;}
+nav ul li a{text-decoration: none; display: block; padding: 12px 20px;}
+
+.icon i{
+    display: inline-block;
+    padding: 5px;
+    color: red;
+}
+.slider-1{background: url(images/1.jpg); background-size: cover; height: 80vh; background-repeat: no-repeat;}
+.slider-2{background: url(images/2.jpg); background-size: cover; height: 80vh; background-repeat: no-repeat;}
+.slider-3{background: url(images/2.2.jpg); background-size: cover; height: 80vh; background-repeat: no-repeat;}
+.flex-height{height: 100%; align-items: center; display: flex;}
+.caption{ width: 50%;}
+.caption h2{font-size: 70px; font-weight: 800;}
+.caption h3{font-size: 50px; font-weight: 600;}
+.caption p{margin: 20px 0px;line-height: 25px; }
+.caption button{padding: 16px 30px; border: none; border-radius: 30px; margin-right: 13px; color: white;}
+.btn-1{ background-color: rgb(182, 12, 40);}
+.btn-2{ background-color: rgb(14, 13, 13);}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medicare</title>
+    <link rel="stylesheet" href="medicare.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+      <div class="container d-flex space-between  align-item-center">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us
+                    <!-- <ul>
+                        <li><a href="#">General's Information</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Doctor's Pofile</a></li>
+                        <li><a href="#">Galleries</a></li>
+                        <li><a href="#">Working Hours</a></li>
+                        <li><a href="#">Appointements</a></li>
+                        <li><a href="#">Contact-us</a></li>
+                    </ul> -->
+                </a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+
+        <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="banner">
+        <div class="owl-carousel owl-theme">
+
+            <div class="slider-1">
+                <div class="container flex-height">
+
+                  <div class="caption">
+                    <p>INSPIRING BETTER HEALTH</p>
+                    <h2>Healthy Heart</h2>
+                    <h3>Healthy Family</h3>
+                    <p>Globally harness multimedia based collaboration and idea-sharing with backend products. 
+                        Continually whiteboard superior opportunities via covalent scenarios.</p>
+                        <button class="btn-1">DISCOVER MORE</button>
+                        <button class="btn-2">VIEW OUR SERVICES</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="slider-2">
+                <div class="container">
+
+                  <div class="caption">
+                    <p>GROWING TO MEET YPUR NEEDS</p>
+                    <h2>YOUR WEALTH</h2>
+                    <h3>Is our health</h3>
+                    <p>Compellingly embrace empowered e-business after user friendly intellectual capital.
+                        Interactively actualize front-end processes with effective convergence.
+                    </p>
+                        <button class="btn-1">PEDIATRIC CARDIOLOGY</button>
+                        <button class="btn-2">BOOK NOW</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="slider-3">
+                <div class="container">
+
+                  <div class="caption">
+                    <p>INSPIRING BETTER HEALTH</p>
+                    <h2>Healthy Heart</h2>
+                    <p>Globally harness multimedia based collaboration and idea-sharing with backend products. 
+                        Continually whiteboard superior opportunities via covalent scenarios.</p>
+                        <button class="btn-1">DISCOVER MORE</button>
+                        <button class="btn-2">VIEW OUR SERVICES</button>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2200,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+    </script>
+
+    
+</body>
+</html>
